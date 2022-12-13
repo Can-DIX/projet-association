@@ -9,7 +9,13 @@
 
   <style>
 
-
+body {
+  
+    
+}
+     
+  
+  
 h1 {
   font-size: 2,6rem;
 
@@ -67,13 +73,48 @@ nav ul{
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  cursor: pointer;
 }
 
 
 #logo{
  
   flex: 2 1 40rem;
+  
 }
+
+
+/*hero*/
+
+.hero{
+  min-height: 90vh ;
+
+  background: linear-gradient(rgb(0,0,0, 0.6), transparent), url("https://www.u-run.fr/wp-content/uploads/2014/01/stade-bad-frankenhausen.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+ 
+ .hero h3{
+   padding: 3rem;
+  }
+
+
+button{
+    padding: 2rem 6rem;
+    background-color: #71b5d8;
+    color: bisque;
+    font-size: 1.8rem;
+    cursor: pointer;
+    border: none;
+   }
+
+
+
 
 
 
