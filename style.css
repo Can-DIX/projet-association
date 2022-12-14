@@ -49,6 +49,7 @@ color: bisque;
 .main-head {
 background: #71b5d8 ;
 color: bisque;
+width: 100%;
 
 }
 
@@ -114,7 +115,23 @@ button{
    }
 
 
+/*body menu*/
 
+.event{
+  color: black;
+ }
+
+
+
+.associ{
+  color: black;
+ }
+
+
+
+ .sport{
+  color: black;
+ }
 
 
 
