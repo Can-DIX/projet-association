@@ -91,7 +91,7 @@ nav ul{
 }
 
 
-/*hero*/
+/*corps du texte*/
 
 .hero{
   min-height: 100vh ;
@@ -155,197 +155,66 @@ button{
 
  
 
-/* section */
+/* page associ-haed */
 
-
-/*{
-      text-align: center;
-      
-        
-
-    }
-    main {
-    
-      background-image: url("https://www.u-run.fr/wp-content/uploads/2014/01/stade-bad-frankenhausen.jpg");
-      height: 650px;
-      background-color: #3D3D3D;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center center;
-      box-shadow: 0 0 0.5em rgb(0 0 0 / 30%);
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-end;
-    line-height: ;
+/*HEADER P2*/
+.associ-head {
+  background: #384b54 ;
+  color: bisque;
+  width: 100%;
+  height: auto;
+  
+  }
+  
+  .event{
+    color: bisque;
+    font-size: x-large;
+   }
+  
+  
+  
+  .associ{
+    color: rgb(182, 105, 11);
+    font-size: x-large;
+   }
+  
+  
+  
+   .sport{
+    color:bisque;
+    font-size: x-large;
+   }
+  /*CORPS P2*/
+  
+   .hero2{
+    min-height: 100vh ;
+    background: linear-gradient(rgb(0,0,0, 0.6), transparent), url("https://www.u-run.fr/wp-content/uploads/2014/01/stade-bad-frankenhausen.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: bisque;
+    display: flex;
     text-align: center;
-    
+    flex-direction: column;
+    font-family: 'Suranna', serif;
+    font-size: larger;
+   }
+   
+  
+   
+  .hero h3{
+     padding: 4rem;
     }
-
-    .nav-link {
-
-      text-decoration: underline;
-
-      color: black;
-
-    }
-
-    footer {
-
-      text-align: center;
-      height: 100%;
-      max-height: 60px;
-      display: center;
-      align-items: center;
-      background-color: #71b5d8;
-      color: white;
-
-    }
-
-    nav {
-        
-display: block;
-    }
-
-    .textii {
-     display: block;   
-
-    }
-
-    .textii2 {
-display: block;
-    }
-
-    .textii3 {
-display: block;
-    }
-
+  
+    .hero p{
+      padding: 4rem;
  
+     }
 
-    .texteun {
-
-        background-color: #71b5d8;
-        padding-top:%;
-        padding-right:1%;
-        padding-bottom: 1%;
-        padding-left:1%;
-        font-size: 1em;
-        
-        
-        
-        
-    }
-
-h1 {
-
-  font-size: 23;
-}
-
-
-
-    .textedeux {
-
-        background-color: #71b5d8;
-        padding-top:%;
-        padding-right:1%;
-        padding-bottom: 1%;
-        padding-left:1%;
-        font-size: 0,6em;
+    .boites {
       
-    }
-
-    .textetrois {
-
-      background-color: #71b5d8;
-      padding-top:%;
-      padding-right:1%;
-      padding-bottom: 1%;
-      padding-left:1%;
-      font-size: 0,6em;
-      
-      
-      }
-
-.blocrelative {
-
-position: relative; 
-top: 35px; 
-left: 40%; 
-width: 400px; 
-height: 50px; 
-color: white; 
-padding: 5px;
-
-} 
-
-/*.bloctitre1 {
-  
-margin-left: 50%;
-background:#d1fce2;
-color:black;
-text-align: justify;
-
-
-}
-
-
-.bloctitre2 {
-margin-right: 50%;
-background:#d1fce2;
-color:black;
-text-align: justify;
-vertical-align: middle;
-
-  
-}
-
-
-.bloctitre3 {
-  margin-left: 50%;
-  background:#d1fce2;
-  color:black;
-  text-align: justify;
-  vertical-align: middle;
-  
-
-}*/
-
-
-/*.titrecentre {
-
-  background:#d1fce2;
-  color:black;
-  text-align: center;
-  vertical-align: middle;
-
-}
-
-.titrecentre2 {
-
-  background:#d1fce2;
-  color:black;
-  text-align: center;
-  vertical-align: middle;
-
-}
-
-
-.titrecentre3 {
-
-  background:#d1fce2;
-  color:black;
-  text-align: center;
-  vertical-align: middle;
-  
-
-}
-/*
-.imagemj {
-
-margin-right: 50%;
-
-} */
-
-
+      background-color: #384b54;
+ 
+     }
 
 
     @media all and (min-width: 1024px) and (max-width: 1280px)  {
