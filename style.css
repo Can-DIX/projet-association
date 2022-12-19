@@ -9,8 +9,10 @@
 
   <style>
 
+
+
 body {
-  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
      
@@ -18,6 +20,7 @@ body {
   
 h1 {
   font-size: 2,6rem;
+  font-family: 'Playfair Display SC', serif;
 
 }
    
@@ -47,13 +50,14 @@ color: bisque;
 /*HEADER*/
 
 .main-head {
-background: #71b5d8 ;
+background: #384b54 ;
 color: bisque;
 width: 100%;
+height: auto;
 
 }
 
- a {
+a {
 color: bisque;
 text-decoration: none;
 }
@@ -66,21 +70,23 @@ align-items: center;
 width: 90%;
 margin:auto ;
 padding:2rem ;
+margin-top: 0%;
 }
 
 nav ul{
   display: flex;
-  flex: 1 1 40rem;
+  flex: 5 5 30rem;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   cursor: pointer;
+  font-family: 'Suranna', serif;
 }
 
 
 #logo{
  
-  flex: 2 1 40rem;
+  flex: 2 1 20rem;
   
 }
 
@@ -88,8 +94,7 @@ nav ul{
 /*hero*/
 
 .hero{
-  min-height: 90vh ;
-
+  min-height: 100vh ;
   background: linear-gradient(rgb(0,0,0, 0.6), transparent), url("https://www.u-run.fr/wp-content/uploads/2014/01/stade-bad-frankenhausen.jpg");
   background-size: cover;
   background-position: bottom;
@@ -98,16 +103,23 @@ nav ul{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Suranna', serif;
  }
  
- .hero h3{
-   padding: 3rem;
+
+ 
+.hero h3{
+   padding: 4rem;
   }
+
+  .hero h2{
+    padding: 4rem;
+   }
 
 
 button{
-    padding: 2rem 6rem;
-    background-color: #71b5d8;
+    padding: 2rem 4rem;
+    background-color:#384b54;
     color: bisque;
     font-size: 1.8rem;
     cursor: pointer;
@@ -116,27 +128,37 @@ button{
 
 
 /*body menu*/
+.menus {
+  
+ }
+
 
 .event{
-  color: black;
+  color: bisque;
+  font-size: x-large;
  }
 
 
 
 .associ{
-  color: black;
+  color: bisque;
+  font-size: x-large;
  }
 
 
 
  .sport{
-  color: black;
+  color:bisque;
+  font-size: x-large;
  }
 
 
+ 
 
-/*
-section {
+/* section */
+
+
+/*{
       text-align: center;
       
         
