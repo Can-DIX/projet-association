@@ -166,21 +166,22 @@ button{
   
   }
   
-  .event{
+  .event2{
+
     color: bisque;
     font-size: x-large;
    }
   
   
   
-  .associ{
+  .associ2{
     color: rgb(182, 105, 11);
     font-size: x-large;
    }
   
   
   
-   .sport{
+   .sport2{
     color:bisque;
     font-size: x-large;
    }
@@ -210,11 +211,75 @@ button{
  
      }
 
-    .boites {
-      
-      background-color: #384b54;
+
+
+
+
+
+
+
+
+
+
+
+
+/* page event */
+
+/*HEADER P3*/
+.associ-head {
+  background: #384b54 ;
+  color: bisque;
+  width: 100%;
+  height: auto;
+  
+  }
+  
+  .event3{
+  
+    color: rgb(182, 105, 11);
+    font-size: x-large;
+   }
+  
+  
+  
+  .associ3{
+    color: bisque;
+    font-size: x-large;
+   }
+  
+  
+  
+   .sport3{
+    color:bisque;
+    font-size: x-large;
+   }
+  /*CORPS P2*/
+  
+   .hero3{
+    min-height: 100vh ;
+    background: linear-gradient(rgb(0,0,0, 0.6), transparent), url("https://www.u-run.fr/wp-content/uploads/2014/01/stade-bad-frankenhausen.jpg");
+    background-size: cover;
+    background-position: bottom;
+    color: bisque;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Suranna', serif;
+    font-size: larger;
+   }
+   
+  
+   
+  .hero h3{
+     padding: 4rem;
+    }
+  
+    .hero p{
+      padding: 4rem;
  
      }
+
+
 
 
     @media all and (min-width: 1024px) and (max-width: 1280px)  {
