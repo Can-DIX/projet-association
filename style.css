@@ -185,6 +185,7 @@ button{
     color:bisque;
     font-size: x-large;
    }
+
   /*CORPS P2*/
   
    .hero2{
@@ -226,7 +227,7 @@ button{
 /* page event */
 
 /*HEADER P3*/
-.associ-head {
+.event-head {
   background: #384b54 ;
   color: bisque;
   width: 100%;
@@ -253,7 +254,7 @@ button{
     color:bisque;
     font-size: x-large;
    }
-  /*CORPS P2*/
+  /*CORPS P3*/
   
    .hero3{
     min-height: 100vh ;
@@ -265,13 +266,19 @@ button{
     text-align: center;
     flex-direction: column;
     font-family: 'Suranna', serif;
-    font-size: larger;
+    font-size: large;
+    
    }
    
+   .titre{
+   font-size: smaller;
+   
   
+   }
    
   .hero h3{
      padding: 4rem;
+    
     }
   
     .hero p{
@@ -280,6 +287,38 @@ button{
      }
 
 
+     /*page sport*/
+
+     /*header p4*/
+
+     .sport-head {
+  background: #384b54 ;
+  color: bisque;
+  width: 100%;
+  height: auto;
+  
+  }
+  
+  .event4{
+
+    color: bisque;
+    font-size: x-large;
+   }
+  
+  
+  
+  .associ4{
+ 
+    color:bisque;
+    font-size: x-large;
+   }
+  
+  
+  
+   .sport4{
+    color: rgb(182, 105, 11);
+
+    font-size: x-large;
 
 
     @media all and (min-width: 1024px) and (max-width: 1280px)  {
